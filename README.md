@@ -1,2 +1,1 @@
-# ieteblogs
-IETE Tech Blogs
+IETE Blog

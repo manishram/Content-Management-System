@@ -1,0 +1,115 @@
+body{
+	font-family:Montserrat, sans-serif;
+	
+}
+a{text-decoration:none!important;}
+ .fa-z {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.social {
+    color: #4D045D;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.footer {
+  background-color: #4D045D;
+  color: white;
+}
+
+.gap{
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.address-info{
+  text-align: right;
+}
+
+.footer-copyright {
+    background-color: #000000;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+ .initial{
+  background-color:#8501A1; height: 300px;
+   box-shadow: 0px 1px 2px #00000073;
+  }
+  .search-box{position: absolute;
+  top:305px;
+  left:50%;
+  width:50%;
+  transform:translate(-50%,-50%);
+  background-color:white;
+  height:40px solid grey;
+  border-radius:10px;
+  padding:5px;
+  box-shadow: 0px 1px 2px #00000073;
+  z-index:10;
+  }
+ 
+  .search-btn{
+  color:#EEEE;
+  float:right;
+  width:40px;
+  font-size: 20px;
+  border-radius: 5%;
+  height:40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  }
+ 
+  .search-text{border:none;
+  background-color: none;
+  outline:none;
+  float:left;
+  border-radius:40px ;
+  padding:5px;
+ 
+  margin:1px auto;
+  color:black;
+  font-size: 20px;
+  transition: 0.6s;
+  line-height: 30px;
+  width: 91%;}
+  /////////////////////////////responsive////////////////////
+ 
+  @media(max-width:991px)
+  {
+  .initial{background-color:#8501A1; height: 300px;}
+  .search-box{position:absolute;
+  top:300px;
+  width:50%;
+  }
+  @media(max-width:923px){
+  .initial{background-color:#8501A1; height: 300px;}
+  .search-box{position: absolute;width:40%;height:40px;width: 60%;border-radius:15px;
+  }
+ 
+  .search-text{ line-height: 5px;width:90%; font-size: 15px; height:auto;}
+ 
+ .search-btn{height: 35px;width:0px;font-size: 10px;padding-right: 10px;}
+ .navbar-brand{font-size: 22px;}
+  }
+ 
+  @media (max-width: 404px) {
+  .initial{background-color:#8501A1; height: 305px;}
+  .search-box{position:absolute;
+  top:305px;height:40px;width:70%;
+  }
+  .navbar-brand{font-size: 25px;}
+  .search-text{ line-height: 5px;width:90%; font-size: 15px; height:auto;}
+ 
+ .search-btn{height: 35px;width:0px;font-size: 13px;padding-right: 7px;}
+  }
+ 
+ 
+
