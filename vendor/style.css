@@ -1,6 +1,6 @@
 body{
 	font-family:Montserrat, sans-serif;
-	
+
 }
 a{text-decoration:none!important;}
  .fa-z {
@@ -53,7 +53,7 @@ a{text-decoration:none!important;}
   box-shadow: 0px 1px 2px #00000073;
   z-index:10;
   }
- 
+
   .search-btn{
   color:#EEEE;
   float:right;
@@ -66,14 +66,14 @@ a{text-decoration:none!important;}
   align-items: center;
   text-decoration: none;
   }
- 
+
   .search-text{border:none;
   background-color: none;
   outline:none;
   float:left;
   border-radius:40px ;
   padding:5px;
- 
+
   margin:1px auto;
   color:black;
   font-size: 20px;
@@ -81,19 +81,19 @@ a{text-decoration:none!important;}
   line-height: 30px;
   width: 91%;}
   /////////////////////////////responsive////////////////////
- 
- 
+
+
   @media(min-width:923px){
   .initial{background-color:#8501A1; height: 300px;}
   .search-box{position: absolute;width:40%;height:40px;width: 60%;border-radius:15px;
   }
- 
+
   .search-text{ line-height: 5px;width:90%; font-size: 15px; height:auto;}
- 
+
  .search-btn{height: 35px;width:0px;font-size: 10px;padding-right: 10px;}
  .navbar-brand{font-size: 22px;}
   }
- 
+
   @media (max-width: 540px) {
   .initial{background-color:#8501A1; height: 305px;}
   .search-box{
@@ -104,9 +104,181 @@ a{text-decoration:none!important;}
   }
   .navbar-brand{font-size: 25px;}
   .search-text{ line-height: 5px;width:90%; font-size: 15px; height:auto;}
- 
+
  .search-btn{height: 35px;width:0px;font-size: 13px;padding-right: 7px;}
   }
- 
- 
 
+ /************************ AUTHOR DASHBOARD **************************** */
+
+.topnav {
+	background-color: #8501A2;
+	height: 2.5rem;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.topnav .row, .col-4, .col-8 {
+	height: 2.5rem;
+}
+
+.topnav .col-4 a {
+	text-decoration: none;
+	color: white;
+	line-height: 2.5rem;
+}
+
+.topnav .col-8 a {
+	display: block;
+	color: white;
+	line-height: 2.5rem;
+	height: 2.5rem;
+	float: right;
+}
+
+.topnav .col-8 .fa-circle {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+}
+
+.author-square {
+	background-color: #8501A2;
+	margin: 1rem auto;
+	height: 9rem;
+	width: 9rem;
+	padding: 0;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.square-strip-1 {
+	height: 2rem;
+	width: 9rem;
+	margin: 0;
+	padding: 0;
+	background-color: #8501A2;
+}
+
+.square-strip-2 {
+	margin: 0;
+	height: 7rem;
+	width: 9rem;
+	padding: 0;
+	background-color: white;
+}
+
+.square-strip-2 a {
+	display: block;
+	height: 7rem;
+	width: 9rem;
+	line-height: 7rem;
+	font-size: 3.5rem;
+	text-align: center;
+	color: #8501A2;
+}
+
+.square-strip-1 a {
+	display: block;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.8rem;
+	color: white;
+	float: left;
+}
+
+.square-strip-1 .square-title {
+	padding-left: 0.3rem;
+	width: 7rem;
+}
+
+.dashboard-boxes .tile-icon {
+	height: 2rem;
+	width: 2rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;
+}
+
+.dashboard-boxes .tile-icon:hover {
+	background-color: white;
+	color: #8501A2;
+}
+
+.add-new .pencil-icon-link {
+	display: block;
+	height: 2rem;
+	width: 2rem;
+	position: relative;
+	left: 7rem;
+	z-index: 1;
+}
+
+.add-new .plus-icon-link {
+	display: block;
+	height: 9rem;
+	width: 9rem;
+	position: relative;
+	top: -2rem;
+}
+
+.add-new .fa-plus {
+	height: 9rem;
+	width: 9rem;
+	line-height: 9rem;
+	text-align: center;
+	font-size: 5rem;
+	color: white;
+}
+
+.dashboard-hr {
+	width: 90%;
+}
+
+.rect-table {
+	background-color: #f3f3f3;
+  border: 1.5px solid #a1a1a1;
+}
+
+.rect-table .text {
+	color: #8501A2;
+}
+
+.rect-table td {
+	text-align: center;
+	font-size: 1rem;
+}
+
+.rect-table .like-view {
+	text-align: right;
+	color: #a1a1a1;
+}
+
+.rect-table .btn {
+	color: #8501A2;
+	border-color: #8501A2;
+	border-radius: 25px;
+}
+
+.rect-table .btn:hover {
+	color: white;
+	background-color: #8501A2;
+}
+
+.theme-text{
+	color:#8501A2 !important;
+
+}
+.btn-theme {
+    color: #fff;
+    background-color: #8501A2;
+    border-color: #8501A2;
+}
+
+.btn-outline-theme{
+	color:#8501A2;
+	border-color:#8501A2;
+}
