@@ -3,14 +3,14 @@
 
 if(!(isset($_POST['username'])) || !(isset($_POST['password'])) || $_POST['username']=='' || $_POST['password']==''){header("Location: ../");}
 else{
-include('conn.php');
+include('../process/conn.php');
 
 
 
 $username = htmlentities(stripslashes(trim($_POST['username'])));
 $pass = md5(htmlentities(stripslashes(trim($_POST['password']))));
 
-$sql = "SELECT*FROM users WHERE (username='$username' AND password='$pass' AND verified = 1 AND level!=5)";
+$sql = "SELECT*FROM users WHERE (username='$username' AND password='$pass' AND level = 5)";
 
 $signin_query = mysqli_query($conn,$sql);
 
@@ -30,18 +30,11 @@ $original_url='https://'.$_SERVER['HTTP_HOST']; //try with all urls above
 
 $user_row=mysqli_fetch_array($signin_query);
 
-
-	if(isset( $_SESSION['username'])){unset($_SESSION['username']);session_destroy();}
-
-
-	if(isset($_COOKIE['cookie_username'])){setcookie('cookie_username', $_COOKIE['cookie_username'], time() - (86400 * 7), "/",$host); unset($_COOKIE['cookie_username']);}
-	if(isset($_COOKIE['cookie_session_id'])){setcookie('cookie_session_id', $_COOKIE['cookie_session_id'], time() - (86400 * 7), "/",$host); unset($_COOKIE['cookie_session_id']);}
+if(isset( $_SESSION['username'])){unset($_SESSION['username']);session_destroy();}
+	if(isset( $_SESSION['admin_username'])){unset($_SESSION['admin_username']);session_destroy();}
 
 	session_start();
-
-	setcookie('cookie_username', $user_row['username'], time() + (86400 * 7), "/",$host);
-	setcookie('cookie_session_id', session_id(), time() + (86400 * 7), "/",$host);
-    $_SESSION['username']=$user_row['username'];
+    $_SESSION['admin_username']=$user_row['username'];
 
 
 }

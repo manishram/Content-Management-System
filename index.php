@@ -180,11 +180,10 @@ h1.heading {
       <form action="category" method="get" style="display:contents;">
           <input type="hidden" name="category" value="1">
         </form>
-    <div class="card mb-3" style="">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Primary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="card mb-3" style="background:#989699;">
+  <div class="card-header" style="color: #fff;" title='Computer and Mobile Development'>Computer & Mobile Develop...</div>
+  <div class="">
+  <img src="vendor/images/cat-1.jpg" class="img-fluid"></img>
   </div>
 </div>
 	</div>
@@ -193,12 +192,11 @@ h1.heading {
     <form action="category" method="get" style="display:contents;">
         <input type="hidden" name="category" value="2">
       </form>
-  <div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-  <h5 class="card-title">Primary card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+      <div class="card mb-3" style="background:#bce6f2;">
+    <div class="card-header" title='Blockchain and Cryptocurrency'>Blockchain and Cryptocurrency</div>
+    <div class="">
+    <img src="vendor/images/cat-2.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -207,12 +205,11 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="3">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+    <div class="card mb-3" style="background:#cff4c0">
+    <div class="card-header" title='Computer Networking & Cybersecurity'>Computer Networking & Cyber...</div>
+    <div class="">
+    <img src="vendor/images/cat-3.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -220,12 +217,11 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="4">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+    <div class="card mb-3" style="background:#ff9d60">
+    <div class="card-header" title='Automobile and Machinery'>Automobile and Machinery</div>
+    <div style='background:#ff9d60;'>
+    <img src="vendor/images/cat-4.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -233,12 +229,11 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="5">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+    <div class="card mb-3" style="background:#ffdf58">
+    <div class="card-header" title='Data Science, AI/ML & IOT'>Data Science, AI/ML & IOT</div>
+    <div style='background:#ff9d60;'>
+    <img src="vendor/images/cat-5.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -246,12 +241,11 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="6">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+    <div class="card mb-3" style="background:#40403f">
+    <div class="card-header" style="color: #fff;" title='Space Science'>Space Science</div>
+    <div style='background:#ff9d60;'>
+    <img src="vendor/images/cat-6.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -259,12 +253,11 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="7">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-</div>
+    <div class="card mb-3" style="background:#cdb2d5">
+    <div class="card-header" title='Nano Technology'>Nano Technology</div>
+    <div style='background:#ff9d60;'>
+    <img src="vendor/images/cat-7.jpg" class="img-fluid"></img>
+    </div>
 </div>
 </div>
 
@@ -272,11 +265,10 @@ h1.heading {
   <form action="category" method="get" style="display:contents;">
       <input type="hidden" name="category" value="8">
     </form>
-<div class="card mb-3" style="">
-<div class="card-header">Header</div>
-<div class="card-body">
-<h5 class="card-title">Primary card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="card mb-3" style="background:#fff">
+<div class="card-header" title='Others'>Others</div>
+<div style='background:#ff9d60;'>
+<img src="vendor/images/cat-8.jpg" class="img-fluid"></img>
 </div>
 </div>
 </div>
@@ -460,34 +452,34 @@ h1.heading {
 <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C246.89,148.52 247.45,147.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #4D045D;"></path></svg></div>
   <footer class="footer">
 
-    <div class="container-fluid">
-      <div class="gap">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 small">
-          <i class="fa fa-envelope"></i>
-             contact@ietebits.com<br><br>
-             <i class="fa-z fas social fa-facebook"></i>
-             <i class="fa-z fas social fa-instagram"></i>
-             <i class="fa-z fas social fa-twitter"></i>
-          </div>
-          <div class="col-sm-12 col-md-6"><br>
-            <div class="address-info small">
-              <i class="fas fa-map-marker"></i>
-                 Address <br> BIT Sindri, Dhanbad
-            </div>
+       <div class="container-fluid">
+           <div class="gap">
+               <div class="row">
+                   <div class="col-sm-12 col-md-6 small">
+                       <i class="fas fa-envelope-open-text"></i>
+                       contact@ietebits.com<br><br>
+                       <a style="color: white" href="https://www.facebook.com/ietebits/"> <i class="fab fa-facebook fa-2x"></i></a>
+                       <a style="color: white" href="https://www.instagram.com/iete_bits/"><i style="margin: 0 10px" class="fab fa-instagram fa-2x"></i> </a>
+                       <a style="color: white" href="https://twitter.com/bitsiete"><i class="fab fa-twitter fa-2x"></i></a>
+                   </div>
+                   <div class="col-sm-12 col-md-6"><br>
+                       <div class="address-info small">
+                           <i class="fas fa-map-marker-alt"></i>
+                           Address <br> <img style="height: 30px; margin-right: 8px;margin-top:-5px; " src="vendor/images/bit.png"> BIT Sindri, Dhanbad
+                       </div>
 
-          </div>
-        </div>
-      </div>
+                   </div>
+               </div>
+           </div>
 
-      </div>
+       </div>
 
-        <!-- Copyright -->
-          <div class="footer-copyright text-light text-center small">
-          Copyright © 2020 IETE BIT Sindri. <br>All Rights Reserved.
-          </div>
-      <!-- Copyright -->
-  </footer>
+       <!-- Copyright -->
+         <div class="footer-copyright text-light text-center small">
+         Copyright © 2020 IETE BIT Sindri. <br>All Rights Reserved.
+         </div>
+     <!-- Copyright -->
+ </footer>
   <!-- /Page Content End-->
 
 
@@ -498,7 +490,7 @@ h1.heading {
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script>
- $('.search-form').submit(function(){ return false; });
+  $('.signin-form').submit(function(){ return false; });
  $('.signin-form').submit(function(){ return false; });
 $('.signin-in-button').click(function(){
 $('.error-msg').hide();

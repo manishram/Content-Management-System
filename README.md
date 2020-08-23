@@ -1,1 +1,1 @@
-CMS for Blogs on PHP and MySQL
+IETE Blogs
