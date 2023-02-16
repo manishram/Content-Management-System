@@ -44,7 +44,7 @@ mysqli_query($conn,$sql);
 }
 else{
 $hits = $row_view['hit'] + 1;
-  $sql = "UPDATE views SET hit = $hits WHERE (blog_id = '$blog_id' AND ip ='$user_ip')";
+  $sql = "UPDATE views SET hit = $hits";
   mysqli_query($conn,$sql);
 }
 }

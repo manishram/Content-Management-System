@@ -27,13 +27,10 @@ die();}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="../../vendor/style.css">
   <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap-tagsinput.css">
+
   <script src="./ckeditor/ckeditor.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-
-
 <style>
 body{
-    font-family: 'PT Sans', sans-serif;
 	background:#ccc;
 }
 .bootstrap-tagsinput .tag{
@@ -63,7 +60,7 @@ input{width:100%;}
  </div>
 <br>
 <div class="container" style="margin-top:-60px;z-index:5;border-radius:5px;background:#fff;box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);padding:40px">
-<span class='text-center text-muted text-uppercase'><h4>Add new blog</h4></span>
+
 <div class="form-group">
     <label for="blog-title" class="theme-text"><h5>Title of the blog</h5></label>
     <input type="text" class="form-control shadow-none" id="blog-title" placeholder="Title of the blog">
