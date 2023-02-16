@@ -156,15 +156,12 @@ h1.heading {
   <!-- Page Content Start-->
 
   <div class="container-flex" style="margin-bottom:70px;">
-  <header class="initial">
+ <header class="initial">
   <nav class="navbar navbar-expand-lg navbar-dark ">
-    <a class="navbar-brand" href="#">
-        <img src="../vendor/images/ieteblogs.png" style='margin-top:5px;' height="40px" class="d-inline-block align-top" alt="">
-
-      </a>
+  <a class="navbar-brand text-white" href="#">IETE  Blogs</a>
   <button class="navbar-toggler" style="border:none;" type="button" data-toggle="collapse"
   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-  aria-expanded="false" aria-label="Toggle navigation">
+ aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon text-white"></span>
   </button>
 
@@ -190,16 +187,17 @@ h1.heading {
   <li class="nav-item">
   <a href=" "class="nav-link text-white">Contacts </a>
   </li>
-
+  <li class="nav-item">
+  <a href=" "class="nav-link text-white">Subscribe </a>
+  </li>
    </ul>
 
   </div>
   </nav>
 
-
   <form class="search-form" action="../search" method="get" style="display:contents"><div class="search-box">
   <div class="input-group">
-    <input type='hidden' value="<?php echo $category; ?>" name="category">
+    <input type='hidden' value="<?php echo $category; ?>" name="$category">
   <input type="text" name="search" class="form-control shadow-none" style="border:none;" placeholder="Search blog in <?php echo $category_title ?>">
   <div class="input-group-append">
     <button type="button" class="btn shadow-none bg-white" style="border:none;" onClick="document.forms[0].submit();"><i class="text-muted fa fa-search"></i></button>
@@ -211,7 +209,6 @@ h1.heading {
 
 
   </div>
-  <img src='../vendor/images/vase.png' style='height:100px;margin-top:-265px;margin-left: calc(5% - 25px);'></img>
 
   </header>
   </div>
@@ -313,36 +310,36 @@ echo "</div><br><h6 class='text-uppercase' style='text-align:center;color:#80808
 
 
 <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C246.89,148.52 247.45,147.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #4D045D;"></path></svg></div>
-<footer class="footer">
+  <footer class="footer">
 
-     <div class="container-fluid">
-         <div class="gap">
-             <div class="row">
-                 <div class="col-sm-12 col-md-6 small">
-                     <i class="fas fa-envelope-open-text"></i>
-                     contact@ietebits.com<br><br>
-                     <a style="color: white" href="https://www.facebook.com/ietebits/"> <i class="fab fa-facebook fa-2x"></i></a>
-                     <a style="color: white" href="https://www.instagram.com/iete_bits/"><i style="margin: 0 10px" class="fab fa-instagram fa-2x"></i> </a>
-                     <a style="color: white" href="https://twitter.com/bitsiete"><i class="fab fa-twitter fa-2x"></i></a>
-                 </div>
-                 <div class="col-sm-12 col-md-6"><br>
-                     <div class="address-info small">
-                         <i class="fas fa-map-marker-alt"></i>
-                         Address <br> <img style="height: 30px; margin-right: 8px;margin-top:-5px; " src="../vendor/images/bit.png"> BIT Sindri, Dhanbad
-                     </div>
+    <div class="container-fluid">
+      <div class="gap">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 small">
+          <i class="fa fa-envelope"></i>
+             contact@ietebits.com<br><br>
+             <i class="fa-z fa social fa-facebook"></i>
+             <i class="fa-z fa social fa-instagram"></i>
+             <i class="fa-z fa social fa-twitter"></i>
+          </div>
+          <div class="col-sm-12 col-md-6"><br>
+            <div class="address-info small">
+              <i class="fa fa-map-marker"></i>
+                 Address <br> BIT Sindri, Dhanbad
+            </div>
 
-                 </div>
-             </div>
-         </div>
+          </div>
+        </div>
+      </div>
 
-     </div>
+      </div>
 
-     <!-- Copyright -->
-       <div class="footer-copyright text-light text-center small">
-       Copyright © 2020 IETE BIT Sindri. <br>All Rights Reserved.
-       </div>
-   <!-- Copyright -->
-</footer>
+        <!-- Copyright -->
+          <div class="footer-copyright text-light text-center small">
+          Copyright © 2020 IETE BIT Sindri. <br>All Rights Reserved.
+          </div>
+      <!-- Copyright -->
+  </footer>
   <!-- /Page Content End-->
 
 
